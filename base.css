@@ -1,5 +1,5 @@
 html, body {
-    margin: 0;
+    margin: 0 0 0;
 }
 body {
     background-color: #f1f1f1;
@@ -7,11 +7,17 @@ body {
     justify-content: center;
 }
 
+li{
+    list-style-type: none;
+    padding-bottom: 15px;
+}
+
 .wrapper {
     width: 1200px;
     display: flex;
     margin: 0 auto;
-    background-color: aquamarine;
+    background-color: #E0FFFF;
+    align-items: center;
 }
 .main {
     display: flex;
@@ -20,12 +26,16 @@ body {
 }
 .menu {
     width: 15%;
-    background-color: aqua;
+    background-color:#E0FFFF;
     padding: 10px 20px 0px;
+    list-style-type: none;
 }
 .header {
     background-color: rgb(5, 108, 108);
     min-height: 150px;
+    background-image:url(/Nutrição.jpg);
+    background-size:contain;
+    
 }
 .content {
     background-color: white;
@@ -33,6 +43,6 @@ body {
     padding: 20px;
 }
 .footer {
-    background-color: rgb(99, 56, 240);
+    background-color: #c4ecf1;
     min-height: 150px;
 }

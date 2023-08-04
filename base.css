@@ -12,6 +12,10 @@ li{
     padding-bottom: 15px;
 }
 
+table{
+    border: solid;
+}
+
 .wrapper {
     width: 1200px;
     display: flex;
@@ -43,6 +47,12 @@ li{
     padding: 20px;
 }
 .footer {
+    display: flex;
+    orientation: row;
     background-color: #c4ecf1;
     min-height: 150px;
+}
+
+.complemento{
+    padding-left: 12vh;
 }
